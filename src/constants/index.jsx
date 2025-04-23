@@ -84,6 +84,7 @@ export const PROJECTS = [
       "A portfolio website built using reactjs tailwindcss and framer-motion",
     image: projectImage5,
     githubLink: "https://github.com/rakshithsantosh/devPortfolio",
+    websiteLink: "https://dev-portfolio-rho-green.vercel.app/",
   },
 ];
 
