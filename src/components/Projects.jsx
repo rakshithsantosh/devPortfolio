@@ -43,6 +43,21 @@ const Projects = () => {
                   <MdArrowOutward />
                 </div>
               </a>
+              {project.websiteLink ? (
+                <a
+                  href={project.websiteLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full mt-5 bg-white px-4 py-2 text-black hover:bg-grap-300"
+                >
+                  <div className="flex items-center">
+                    <span>Live Link</span>
+                    <MdArrowOutward />
+                  </div>
+                </a>
+              ) : (
+                ""
+              )}
             </div>
           </div>
         ))}
